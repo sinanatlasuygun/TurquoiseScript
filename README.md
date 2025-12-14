@@ -1,29 +1,15 @@
 <!-- ================= LOGO SECTION ================= -->
-<br><br>
+
 <p align="center">
-    <img src="asset/png/logo.png" width="200">
+    <img src="asset/svg/logo.svg" width="200">
+    <img src="asset/svg/title.svg">
 </p>
-
-
-<!-- ================= DESCRIPTION SECTION ================= -->
-<br><br>
-
-<h1 align="center" style="color:#40e0d0;">
-        TURQUOISE SCRIPT LANGUAGE
-    </h1>
-    <h3 align="center" style="color:#29abe2;">
-        Game Development Language
-</h3>
-<p align="center">
-  <img src="https://img.shields.io/badge/license-MIT-29abe2">
-  <img src="https://img.shields.io/badge/status-experimental-29abe2">
-  <img src="https://img.shields.io/badge/language-C++-29abe2">
-</p>
-<br><br>
 
 
 <!-- ================= CONTENT SECTION ================= -->
-<h1 id="content" align="center" style="color:#40e0d0;">CONTENTS</h1>
+<p align="center">
+    <img src="asset/svg/content.svg">
+</p>
 <ul>
     <li><a href="#license" style="color:#29abe2;">License</a></li>
     <li><a href="#installation" style="color:#29abe2;">Installation</a>
@@ -82,37 +68,33 @@
 
 
 <!-- ================= LICENSE SECTION ================= -->
-<h1 id="license"align="center" style="color:#40e0d0;">
-  LICENSE
-</h1>
-<h3 align="center" style="color:#29abe2;">
-  This project is licensed under the MIT Licence. For details, see the LICENCE file.
-</h3>
-<br><br>
+<p align="center">
+    <img src="asset/svg/license.svg">
+</p>
 
 
 <!-- ================= INSTALLATION SECTION ================= -->
-<h1 id="installation"align="center" style="color:#40e0d0;">
-  INSTALLATION
-</h1>
+<p align="center" id="installation">
+    <img src="asset/svg/ins0.svg">
+</p>
 <h3 align="center" style="color:#29abe2;">
   To be added later
 </h3>
 <br>
 
 <!-- ================= INSTALLATION Package SECTION ================= -->
-<h2 id="setuppackage" style="color:#40e0d0;">
-  With the Package Manager
-</h2>
+<p id="setuppackage">
+    <img src="asset/svg/ins1.svg">
+</p>
 <h3 style="color:#29abe2;">
   To be added later
 </h3>
 <br>
 
 <!-- ================= INSTALLATION Source SECTION ================= -->
-<h2 id="setupsource" style="color:#40e0d0;">
-  Compilation from the Source
-</h2>
+<p id="setupsource">
+    <img src="asset/svg/ins2.svg">
+</p>
 <h3 style="color:#29abe2;">
   To be added later
 </h3>
@@ -120,9 +102,9 @@
 
 
 <!-- ================= USAGE SECTION ================= -->
-<h1 id="usage"align="center" style="color:#40e0d0;">
-  USAGE
-</h1>
+<p align="center" id="installation">
+    <img src="asset/svg/usage.svg">
+</p>
 <h3 align="center" style="color:#29abe2;">
   To be added later
 </h3>
@@ -130,18 +112,18 @@
 
 
 <!-- ================= SYNTEX SECTION ================= -->
-<h1 id="syntax"align="center" style="color:#40e0d0;">
-  SYNTAX
-</h1>
+<p align="center" id="syntax">
+    <img src="asset/svg/syn0.svg">
+</p>
 <h3 align="center" style="color:#29abe2;">
   To be added later
 </h3>
 <br>
 
 <!-- ================= SYNTEX Example SECTION ================= -->
-<h2 id="syntaxexample" style="color:#40e0d0;">
-  Example
-</h2>
+<p align="center" id="syntaxexample">
+    <img src="asset/svg/syn1.svg">
+</p>
 <br>
 
 ```tqs
@@ -255,9 +237,9 @@ end
 <br>
 
 <!-- ================= SYNTEX Class SECTION ================= -->
-<h2 id="syntaxclass" style="color:#40e0d0;">
-  Class
-</h2>
+<p id="syntaxclass">
+    <img src="asset/svg/syn2.svg">
+</p>
 <br>
 
 ```tqs
@@ -268,9 +250,9 @@ end
 <br>
 
 <!-- ================= SYNTEX Private Class SECTION ================= -->
-<h2 id="syntaxprivateclass" style="color:#40e0d0;">
-  Private Class
-</h2>
+<p id="syntaxprivateclass">
+    <img src="asset/svg/syn3.svg">
+</p>
 <br>
 
 ```tqs
@@ -281,9 +263,9 @@ end
 <br>
 
 <!-- ================= SYNTEX GameObject SECTION ================= -->
-<h2 id="syntaxgameo" style="color:#40e0d0;">
-  GameObject
-</h2>
+<p id="syntaxgameo">
+    <img src="asset/svg/syn4.svg">
+</p>
 <br>
 
 ```tqs
@@ -307,9 +289,9 @@ end
 <br>
 
 <!-- ================= SYNTEX Private GameObject SECTION ================= -->
-<h2 id="syntaxprivategameo" style="color:#40e0d0;">
-  Private GameObject
-</h2>
+<p id="syntaxprivategameo">
+    <img src="asset/svg/syn5.svg">
+</p>
 <br>
 
 ```tqs
@@ -333,9 +315,9 @@ end
 <br>
 
 <!-- ================= SYNTEX Prefab SECTION ================= -->
-<h2 id="syntaxprefab" style="color:#40e0d0;">
-  Prefab
-</h2>
+<p id="syntaxprefab">
+    <img src="asset/svg/syn6.svg">
+</p>
 <br>
 
 ```tqs
@@ -346,9 +328,9 @@ end
 <br>
 
 <!-- ================= SYNTEX Private Prefab SECTION ================= -->
-<h2 id="syntaxprivateprefab" style="color:#40e0d0;">
-  Private Prefab
-</h2>
+<p id="syntaxprivateprefab">
+    <img src="asset/svg/syn7.svg">
+</p>
 <br>
 
 ```tqs
@@ -359,9 +341,9 @@ end
 <br>
 
 <!-- ================= SYNTEX Component SECTION ================= -->
-<h2 id="syntaxcomponent" style="color:#40e0d0;">
-  Component
-</h2>
+<p id="syntaxcomponent">
+    <img src="asset/svg/syn8.svg">
+</p>
 <br>
 
 ```tqs
@@ -386,9 +368,9 @@ end
 <br>
 
 <!-- ================= SYNTEX Private Component SECTION ================= -->
-<h2 id="syntaxprivatecomponent" style="color:#40e0d0;">
-  Private Component
-</h2>
+<p id="syntaxprivatecomponent">
+    <img src="asset/svg/syn9.svg">
+</p>
 <br>
 
 ```tqs
@@ -413,9 +395,9 @@ end
 <br>
 
 <!-- ================= SYNTEX Function SECTION ================= -->
-<h2 id="syntaxfunction" style="color:#40e0d0;">
-  Function
-</h2>
+<p id="syntaxfunction">
+    <img src="asset/svg/syn10.svg">
+</p>
 <br>
 
 ```tqs
@@ -426,9 +408,9 @@ end
 <br>
 
 <!-- ================= SYNTEX Private Function SECTION ================= -->
-<h2 id="syntaxprivatefunction" style="color:#40e0d0;">
-  Private Function
-</h2>
+<p id="syntaxprivatefunction">
+    <img src="asset/svg/syn11.svg">
+</p>
 <br>
 
 ```tqs
@@ -439,9 +421,9 @@ end
 <br>
 
 <!-- ================= SYNTEX Variables SECTION ================= -->
-<h2 id="syntaxvariables" style="color:#40e0d0;">
-  Variables
-</h2>
+<p id="syntaxvariables">
+    <img src="asset/svg/syn12.svg">
+</p>
 <br>
 
 ```tqs
@@ -469,9 +451,9 @@ end
 <br>
 
 <!-- ================= SYNTEX Special Variables SECTION ================= -->
-<h2 id="syntaxgamevariables" style="color:#40e0d0;">
-  GameObject Variables
-</h2>
+<p id="syntaxgamevariables">
+    <img src="asset/svg/syn13.svg">
+</p>
 <br>
 
 ```tqs
@@ -512,13 +494,9 @@ end
 <br><br>
 
 <!-- ================= CONTACT SECTION ================= -->
-<h1 id="contact"align="center" style="color:#40e0d0;">
-  CONTACT
-</h1>
-<h3  style="color:#29abe2;">
-  For any questions or to discuss the project:
-</h3>
-<p >
+<p id="contact">
+    <img src="asset/svg/contact.svg">
+</p>
 
   <p align="center">
   <img src="https://img.shields.io/badge/Developer-Sinan%20Uygun-29abe2">
@@ -531,4 +509,5 @@ end
   <a href="sinanuygunwork@gmail.com">
     <img src="https://img.shields.io/badge/Email-Contact-D14836?logo=gmail&logoColor=white">
   </a>
+  </p>
 <br><br>
