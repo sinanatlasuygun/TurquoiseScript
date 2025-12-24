@@ -1,11 +1,11 @@
 
-#ifndef DATA_CONTAINER_H
-#define DATA_CONTAINER_H
+#ifndef PPOJECT_SETTING_H
+#define PPOJECT_SETTING_H
 
 #include <string>
 #include <vector>
 
-namespace context
+namespace Context
 {
     enum class Dimension
     {
@@ -29,7 +29,7 @@ namespace context
         NONE
     };
 
-    struct DataContainer
+    struct ProjectSetting
     {
         std::string project_name = "NewTurquazProject";
         Dimension dimension = Dimension::NONE;

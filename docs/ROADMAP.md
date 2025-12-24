@@ -7,8 +7,8 @@ Bu dosya projenin gelişim sürecini takip etmek için oluşturulmuştur. Her a�
 ## 🛡️ I. Bölüm: Temeller ve Proje Bağlamı 
 *Amaç: Projenin 'Anayasasını' ve bellek stratejisini belirlemek.*
 
-- [ ] **1. Klasör Yapısı:** Modüler hiyerarşinin kurulması.
-- [ ] **2. ProjectContext:** Dimension (2D/3D) ve DimensionType (PixelArt/Realistic) verilerini tutan sınıf.
+- [ x ] **1. Klasör Yapısı:** Modüler hiyerarşinin kurulması.
+- [ x ] **2. ProjectContext:** Dimension (2D/3D) ve DimensionType (PixelArt/Realistic) verilerini tutan sınıf.
 - [ ] **3. Settings Parser:** Kodun başındaki ayar bloğunu okuyan 'Asistan' özellikli parser.
 - [ ] **4. Memory Manager:** Arena Allocation (Havuz Bellek) ve Dinamik mod seçicisi.
 
