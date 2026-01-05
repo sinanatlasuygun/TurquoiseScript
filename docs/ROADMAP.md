@@ -11,7 +11,7 @@ Bu dosya projenin gelişim sürecini takip etmek için oluşturulmuştur. Her a�
 - [ x ] **2. ProjectContext:** Dimension (2D/3D) ve DimensionType (PixelArt/Realistic) verilerini tutan sınıf.
 - [ x ] **3. Settings Parser:** Kodun başındaki ayar bloğunu okuyan 'Asistan' özellikli parser.
 - [ x ] **4. Memory Manager:** Arena Allocation (Havuz Bellek) ve Dinamik mod seçicisi.
-- [  ] **4. File Manager:** tqs uzantılı dosyaları bulacak, içeriğini okuyacak.
+- [ x ] **4. File Manager:** tqs uzantılı dosyaları bulacak, içeriğini okuyacak.
 
 ---
 
