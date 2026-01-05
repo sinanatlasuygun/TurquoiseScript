@@ -1,9 +1,11 @@
 
 #include "../../include/context/ProjectContext.h"
+#include "../../include/memory/Arena.h"
 #include <iostream>
 
 namespace TQS
 {
+    static Arena *g_MainArena = nullptr;
     ProjectContext &ProjectContext::getInstance()
     {
         static ProjectContext instance;
@@ -12,8 +14,21 @@ namespace TQS
     void ProjectContext::configure(const ProjectSetting &settings)
     {
         m_settings = settings;
+        if (m_settings.memoryMode == MemoryStrategy::ARENA)
+        {
+            size_t bytes = m_settings.memoryBudgetMB * 1024 * 1024;
+            g_MainArena = new Arena(bytes);
+            std::cout << "[Turquaz] Arena has been launched: " << m_settings.memoryBudgetMB << " MB" << std::endl;
+        }
         std::cout << "The project is being structured:" << m_settings.project_name << std::endl;
         runAssistantCheck();
+    }
+
+    void *AllocateInArena(size_t size)
+    {
+        if (g_MainArena)
+            return g_MainArena->alloc(size);
+        return std::malloc(size);
     }
 
     bool ProjectContext::is3DSupported() const

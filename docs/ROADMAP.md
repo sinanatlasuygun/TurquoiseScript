@@ -9,8 +9,9 @@ Bu dosya projenin gelişim sürecini takip etmek için oluşturulmuştur. Her a�
 
 - [ x ] **1. Klasör Yapısı:** Modüler hiyerarşinin kurulması.
 - [ x ] **2. ProjectContext:** Dimension (2D/3D) ve DimensionType (PixelArt/Realistic) verilerini tutan sınıf.
-- [ ] **3. Settings Parser:** Kodun başındaki ayar bloğunu okuyan 'Asistan' özellikli parser.
-- [ ] **4. Memory Manager:** Arena Allocation (Havuz Bellek) ve Dinamik mod seçicisi.
+- [ x ] **3. Settings Parser:** Kodun başındaki ayar bloğunu okuyan 'Asistan' özellikli parser.
+- [ x ] **4. Memory Manager:** Arena Allocation (Havuz Bellek) ve Dinamik mod seçicisi.
+- [  ] **4. File Manager:** tqs uzantılı dosyaları bulacak, içeriğini okuyacak.
 
 ---
 
@@ -47,14 +48,15 @@ Bu dosya projenin gelişim sürecini takip etmek için oluşturulmuştur. Her a�
 ## ⚙️ V. Bölüm: Yükleme İşlemi
 *Amaç: Yükleme sırasında en az kafa karışıklığı ile proje başında gerekli ayarlar ile kurulumun sağlanması*
 - [ ] **17. Installer:** kurulum için gerekli cmd komutları oluşturma.
-- [ ] **18. Project Installer:** proje oluşturma cmd komutları oluşturma.
+- [ ] **18. File Association:** `.tqs` uzantısının Turquaz ile ilişkilendirilmesi.
+- [ ] **19. Project Installer:** proje oluşturma cmd komutları oluşturma.
 
 ---
 
 ## 💎 VI. Bölüm: Kullanıcı Deneyimi ve Yayın 
 *Amaç: Geliştiricinin işini kolaylaştıran yan araçların eklenmesi.*
 
-- [ ] **19. Debugger Lite:** Hata takibi ve değişken izleme araçları.
-- [ ] **20. Auto-Doc:** Koddan otomatik dökümantasyon taslağı üretme.
-- [ ] **21. Standard Library:** Hazır matematik ve fizik kütüphaneleri.
-- [ ] **22. İlk Demo:** Dil ile yazılmış çalışan bir oyun örneği.
+- [ ] **20. Debugger Lite:** Hata takibi ve değişken izleme araçları.
+- [ ] **21. Auto-Doc:** Koddan otomatik dökümantasyon taslağı üretme.
+- [ ] **22. Standard Library:** Hazır matematik ve fizik kütüphaneleri.
+- [ ] **23. İlk Demo:** Dil ile yazılmış çalışan bir oyun örneği.
