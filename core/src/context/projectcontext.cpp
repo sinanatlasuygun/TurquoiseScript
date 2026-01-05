@@ -6,6 +6,15 @@
 namespace TQS
 {
     static Arena *g_MainArena = nullptr;
+
+    void *AllocateInArena(size_t size)
+    {
+        if (g_MainArena)
+        {
+            return g_MainArena->alloc(size);
+        }
+        return nullptr;
+    }
     ProjectContext &ProjectContext::getInstance()
     {
         static ProjectContext instance;
@@ -22,13 +31,6 @@ namespace TQS
         }
         std::cout << "The project is being structured:" << m_settings.project_name << std::endl;
         runAssistantCheck();
-    }
-
-    void *AllocateInArena(size_t size)
-    {
-        if (g_MainArena)
-            return g_MainArena->alloc(size);
-        return std::malloc(size);
     }
 
     bool ProjectContext::is3DSupported() const

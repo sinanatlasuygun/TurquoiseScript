@@ -6,6 +6,7 @@
 
 namespace TQS
 {
+    void *AllocateInArena(size_t size);
     class ProjectContext
     {
     public:
