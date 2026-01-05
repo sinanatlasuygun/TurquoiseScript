@@ -1,8 +1,8 @@
 
-#include "../../include/context/projectcontext.h"
+#include "../../include/context/ProjectContext.h"
 #include <iostream>
 
-namespace Context
+namespace TQS
 {
     ProjectContext &ProjectContext::getInstance()
     {

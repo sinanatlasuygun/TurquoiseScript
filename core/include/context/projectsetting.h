@@ -5,7 +5,7 @@
 #include <string>
 #include <vector>
 
-namespace Context
+namespace TQS
 {
     enum class Dimension
     {

@@ -2,9 +2,9 @@
 #ifndef PROJECT_CONTEXT_H
 #define PROJECT_CONTEXT_H
 
-#include "projectsetting.h"
+#include "ProjectSetting.h"
 
-namespace Context
+namespace TQS
 {
     class ProjectContext
     {
